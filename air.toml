@@ -1,0 +1,18 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+delay = 1000
+cmd = "go build -o ./tmp/app ./cmd/server/main.go"
+bin = "tmp/app"
+
+[log]
+log_level = "info"
+log_path = "tmp/build.log"
+
+[web]
+addr = ":8000"
+
+[exclude_path]
+directory = ["tmp", "vendor"]
+file = ["*.md", "*.mod"]

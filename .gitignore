@@ -1,3 +1,7 @@
 ###> IDE configs ###
 /.idea
 ###< IDE configs ###
+
+###> AIR configs ###
+/tmp
+###< IDE configs ###
