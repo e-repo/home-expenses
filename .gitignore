@@ -5,3 +5,8 @@
 ###> AIR configs ###
 /tmp
 ###< IDE configs ###
+
+###> ENVIRONMENT VARIABLES ###
+local.env
+/.env.*.local
+###< ENVIRONMENT VARIABLES ###
